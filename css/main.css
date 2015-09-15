@@ -3,7 +3,7 @@ GENERAL
 ***********************************/
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 #wrapper {
@@ -22,10 +22,10 @@ img {
 
 h3, h4 {
   margin: 0 0 1em 0;
+  text-align: center;
+    font-family: 'Dosis', sans-serif;
+
 }
-
-
-
 
 
 /**********************************
@@ -45,7 +45,7 @@ header {
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif;
+  font-family: 'Dosis', sans-serif;
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
@@ -56,6 +56,7 @@ h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
+  font-family: 'Dosis', sans-serif;
 }
 
 
@@ -68,21 +69,28 @@ nav {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
+  font-family: 'Dosis', sans-serif;
 }
 
 nav ul {
   list-style: none;
   margin: 0 10px;
   padding: 0;
+  font-family: 'Dosis', sans-serif;
+
 }
 
 nav li {
   display: inline-block;
+  font-family: 'Dosis', sans-serif;
+
 }
 
 nav a {
   font-weight: 800;
   padding: 15px 10px;
+  font-family: 'Dosis', sans-serif;
+
 }
 
 
@@ -103,6 +111,34 @@ footer {
   width: 20px;
   height: 20px;
   margin: 0 5px;
+}
+
+.footer{
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+
+}
+
+ul #social {
+
+    width: 128px;
+    height: 128px;
+    margin: 50px auto;
+}
+
+ol ul{
+  list-style: none;
+}
+
+li{
+
+   display:inline;
+}
+
+#social ul li{
+    float: left;
+    width: 25%;
 }
 
 
@@ -137,11 +173,15 @@ PAGE: PORTFOLIO
 /**********************************
 PAGE: ABOUT
 ***********************************/
+  .profile-photo {
+    display: block;
+    max-width: 220px;
+    margin: 0 auto 30px;
 
-.profile-photo {
-  display: block;
-  max-width: 200px;
-  margin: 0 auto 30px;
+}
+
+.about_me{
+text-align: center; 
 
 }
 
@@ -193,13 +233,13 @@ body {
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #9BD7D5;
+  border-color: #FFF5C3;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #129793;
 }
 
 /* logo text */
@@ -219,5 +259,5 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #505050;
 }
