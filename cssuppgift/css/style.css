@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+*{
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.page-wrapper {
+	color: black;
+	font-family: 'Abel', sans-serif;
+	background-color: rgba(204, 204, 204, 0.5);
+	position: relative;
+	overflow: auto;
+}
+
+header, .main-supporting {
+display: -webkit-flex;
+
+}
+
+header{
+-webkit-flex-direction: column;
+ background-image: url(../img/jungle.jpeg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ padding:100px;
+ text-align: center;
+ font-size: 2em;
+
+}
+
+#zen-summary {
+	margin-top: 20px;
+	margin-left: 10px;
+	font-family: 'Abel', sans-serif;
+	position: relative;
+	display: inline-block;
+}
+
+#zen-summary > p{
+	margin-left: 300px;
+}
+
+#zen-preamble,
+#zen-explanation, 
+#zen-benefits, 
+#zen-participation,
+#zen-requirements {
+	width: 70%;
+	padding: 10px;
+}
+ 
+.sidebar{
+	width: 30%;
+	padding: 10px;
+    position: absolute;
+    top: 384px;
+    left: 1007px;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	background-image: url("../img/bridge.jpeg");
+	height: 200px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 	background-position: center;
+
+}
+
+footer > a {
+	margin: 0 auto;
+	font-size: 1.2em;
+	color: #fff;
+}
+
+a:visited, a {
+	color: #000;
+	font-family: 'Abel', sans-serif;
+}
+
+
+
+
+
+
+
+
