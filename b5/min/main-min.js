@@ -1,0 +1,1 @@
+$("p").hide(),$(".motion").click(function(){$(".motion-text").show("slow",function(){alert("Animation complete.")})});

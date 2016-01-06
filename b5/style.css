@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+	background: #3498db;
+}
+
+h3 {
+	color: #ecf0f1;
+	font-size: 1.8em;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #ecf0f1;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+p {
+	font-size: 1em;
+	font-family: 'Poiret One', cursive;
+	color: #ecf0f1;
+	padding-left: 10px;
+}
+
+.big-picture {
+	display: block;
+	margin: 0 auto;
+	width: 50%
+}
+
+.matskal {
+	display: block;
+	margin: 15% auto 0;
+	width: 30%;
+	}
+
+.motion {
+	display: block;
+	width: 40%;
+	margin: 6% auto 0;
+}
+
+.koppel { 
+	display: block;
+	width: 30%;
+	margin: 15% auto 0;
+}
+
+.sjukhus {
+	display: block;
+	width: 30%;
+	margin: 15% auto 0;
+}
+
+button {
+  background: #27ae60;
+  border: none;
+  border-radius: 5px;
+  color: #ecf0f1;
+  font-size: 20px;
+  width: 91%;
+  outline: none;
+  cursor: pointer;
+  padding: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: 'Poiret One', cursive;
+}
+
+.big-picture2 {
+		display: none;
+		visibility: hidden;
+	}
+
+@media (min-width: 1001px){
+	.koppel-wrapper, .matskal-wrapper, 
+	.motion-wrapper, .sjukhus-wrapper {
+		float: right;
+		width: 27%;
+	}
+
+	.big-h {
+		display: none;
+		visibility: hidden;
+	}
+
+	.big-picture {
+		display: none;
+		visibility: hidden;
+	}
+
+	.big-picture2 {
+		visibility: visible;
+		display: block;
+		float: left;
+		width: 45%;
+	}
+
+}
